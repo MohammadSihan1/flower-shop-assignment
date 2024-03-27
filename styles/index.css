@@ -1,0 +1,41 @@
+*{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* header related styles */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.header-title{
+    font-size: 80px;
+    color: #272727;
+    margin-bottom: 35px;
+}
+
+.header-paragraph{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 35px;
+}
+
+
+.btn-primary{
+    background-color: #E55473;
+    color: white;
+    padding: 20px 43px 20px 43px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.header-image{
+    width: 635px;
+    height: 800px;
+}

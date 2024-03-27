@@ -41,59 +41,68 @@ header {
 }
 
 /* main > featured flowers section related styles  */
-.featured-flowers{
-    text-align: center;
-    margin-bottom: 125px;
+
+main {
+  padding: 50px;
+  margin-bottom: 150px;
+}
+.featured-flowers {
+  text-align: center;
+  margin-bottom: 125px;
 }
 
-.featured-title{
-    font-size: 40px;
-    color: #272727;
+.featured-title {
+  font-size: 40px;
+  color: #272727;
 }
 
-.featured-para{
-    font-size: 18px;
-    color: rgba(39, 39, 39, 0.6);
+.featured-para {
+  font-size: 18px;
+  color: rgba(39, 39, 39, 0.6);
 }
 
-.featured-imgs-container{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 50px;
+.featured-imgs-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
 }
 
-.featured-imgs-1{
-    background-color: rgba(167, 33, 98, 0.15);
-    border: none;
-    border-top-left-radius: 45%;
-    border-top-right-radius: 45%;
-    padding: 70px 60px 0px 60px;
+.featured-imgs-1 {
+  background-color: rgba(167, 33, 98, 0.15);
+  border: none;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  padding: 70px 60px 0px 60px;
 }
 
-.featured-imgs-2{
-    background-color: rgba(71, 125, 17, 0.15);
-    border: none;
-    border-top-left-radius: 45%;
-    border-top-right-radius: 45%;
-    padding: 70px 60px 0px 60px;
+.featured-imgs-2 {
+  background-color: rgba(71, 125, 17, 0.15);
+  border: none;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  padding: 70px 60px 0px 60px;
 }
 
 /* ICONS HERE */
 
-.featured-icons{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 125px;
+.featured-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 125px;
 }
 
-.featured-icons > p{
-    color: #272727;
-    font-size: 24px;
-} 
+.featured-icons > p {
+  color: #272727;
+  font-size: 24px;
+}
 
 /* Hot deals related styles */
 
-
+.hot-deals-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

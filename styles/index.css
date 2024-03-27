@@ -43,6 +43,7 @@ header {
 /* main > featured flowers section related styles  */
 .featured-flowers{
     text-align: center;
+    margin-bottom: 125px;
 }
 
 .featured-title{
@@ -77,3 +78,22 @@ header {
     border-top-right-radius: 45%;
     padding: 70px 60px 0px 60px;
 }
+
+/* ICONS HERE */
+
+.featured-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 125px;
+}
+
+.featured-icons > p{
+    color: #272727;
+    font-size: 24px;
+} 
+
+/* Hot deals related styles */
+
+

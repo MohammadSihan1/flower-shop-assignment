@@ -105,4 +105,17 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 125px;
+}
+
+/* Instagram section related styles */
+
+.instagram-container{
+    margin-bottom: 125px;
+    text-align: center;
+}
+.instagram-imgs{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
 }
